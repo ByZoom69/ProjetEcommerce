@@ -1,11 +1,10 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
-import Products from './components/products/Products';
-import Navbar from './components/navbar/navbar';
+import React from 'react';
+import { Products, Navbar } from './components';
 
 const App = () => {
     return (
-      <div className="app">
+      <div>
         <Navbar />
         <Products />
       </div>
